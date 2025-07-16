@@ -1,4 +1,4 @@
-package com.safdev.regloginapp.features.comp
+package com.safdev.regloginapp.features.login.comp
 
 import android.R
 import android.media.Image

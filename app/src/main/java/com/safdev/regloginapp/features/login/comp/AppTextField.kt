@@ -1,4 +1,4 @@
-package com.safdev.regloginapp.features.comp
+package com.safdev.regloginapp.features.login.comp
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.text.BasicSecureTextField
 import androidx.compose.foundation.text.BasicTextField
-import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.text.input.TextFieldLineLimits
 import androidx.compose.foundation.text.input.TextFieldState
@@ -118,6 +117,9 @@ fun TextTextField(
                             modifier = Modifier.clickable {
                                 onLeadingClick()
                             }
+                        )
+                        Spacer(
+                            modifier = Modifier.width(16.dp)
                         )
                     }
 

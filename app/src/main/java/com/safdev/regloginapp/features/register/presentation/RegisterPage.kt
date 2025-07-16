@@ -41,7 +41,7 @@ import com.safdev.regloginapp.features.login.comp.AuthOption
 
 
 @Composable
-fun LoginPage(modifier: Modifier = Modifier) {
+fun RegisterPage(modifier: Modifier = Modifier) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -160,5 +160,5 @@ fun LoginPage(modifier: Modifier = Modifier) {
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun LoginPagePreview() {
-    LoginPage()
+    RegisterPage()
 }
